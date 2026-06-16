@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    background-color: #1E293B;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+
+#blok {
+    width: 420px;
+    background-color: #334155;
+    border: 1px solid rgba(255,255,255,0.08);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: #F1F5F9;
+    border-radius: 10px;
+    padding: 10px 40px;
+}
+
+#blok h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: #F1F5F9;
+}
+
+#username {
+    width: 93%;
+    height: 50px;
+    background: #1E293B;
+    border: 1.5px solid #475569;
+    outline: none;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #F1F5F9;
+    padding: 20px 45px 20px 20px;
+    margin-bottom: 15px;
+}
+
+#username::placeholder {
+    color: #64748B;
+}
+
+#password {
+    width: 93%;
+    height: 50px;
+    background: #1E293B;
+    border: none;
+    outline: none;
+    border: 1.5px solid #475569;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #F1F5F9;
+    padding: 20px 45px 20px 20px;
+    margin-bottom: 25px;
+}
+
+#password::placeholder {
+    color: #64748B;
+}
+
+#knop {
+    margin-left: 33px;
+    margin-bottom: 25px;
+    width: 270px;
+    height: 45px;
+    background: #3B82F6;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: 600;
+    transition: all .6s ease-out;
+}
+
+#knop:hover {
+    color: #FFFFFF;
+    background: #2563EB;
+}
+
