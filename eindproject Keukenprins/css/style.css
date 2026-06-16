@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    background: url('../images/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+
+#blok {
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: black;
+    border-radius: 10px;
+    padding: 10px 40px;
+    margin-top: 70px;
+}
+
+#blok h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+#username {
+    width: 93%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 40px;
+    font-size: 16px;
+    color: black;
+    padding: 20px 45px 20px 20px;
+    margin-bottom: 15px;
+}
+
+#username::placeholder {
+    color: black;
+}
+
+#password {
+    width: 93%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 40px;
+    font-size: 16px;
+    color: black;
+    padding: 20px 45px 20px 20px;
+    margin-bottom: 25px;
+}
+
+#password::placeholder {
+    color: black;
+}
+
+#knop {
+    margin-left: 33px;
+    margin-bottom: 25px;
+    width: 270px;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    transition: all .6s ease-out;
+}
+
+#knop:hover {
+    color: rgb(47, 47, 255);
+    background: black;
+}
+
+
+#knopLeesMeer {
+    position: relative;
+    margin-top: 70px;
+    margin-left: 33px;
+    margin-bottom: 25px;
+    width: 150px;
+    height: 45px;
+    background-color: rgb(192, 192, 192);
+    color: black;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 16px;
+    transition: all .6s ease-out;
+    padding-top: 10px;
+    text-decoration-line: underline;
+}
+
+#knopLeesMeer:hover {
+    background-color: rgb(47, 47, 255);
+}
+
+.error-box {
+    background-color: #ffdddd;
+    color: #d8000c;
+    border: 1px solid #d8000c;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#blokTekst {
+    border: 2.5px solid black;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+#footer {
+    background-color: red; 
+    color: white; 
+    text-align: center; 
+    width: 100%; 
+    height: 60px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
