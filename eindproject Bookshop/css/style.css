@@ -1,0 +1,95 @@
+#header {
+    background-color: #8B0000;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Changa One', 'Luxurious Roman', cursive;
+    font-size: 50px;
+    position: relative;
+}
+
+#header::after {
+    content: "";
+    position: absolute;
+    right: 100px;
+    bottom: -90px;
+    width: 100px;
+    height: 90px;
+    background-color: #f4e04d;
+
+    clip-path: polygon(0 0, 100% 0, 100% 70%, 75% 100%, 50% 70%, 25% 100%, 0 70%);
+}
+
+#body {
+    background-color: #F5F5DC;
+}
+
+#filterForm {
+    padding-left: 10px;
+    padding-top: 10px;
+    max-width: 250px;
+    border-radius: 15px;
+    background-color: #ddddc4;
+    border-radius: 0;
+}
+
+#filterForm h5 {
+    font-size: 18px;
+}
+
+.categorie-lijst {
+    max-height: 400px;
+    overflow-y: auto;
+    padding-left: 5px;
+}
+
+
+#auteurFilters {
+    max-height: 500px;
+    overflow-y: auto;
+    padding-left: 5px;
+}
+
+#overview {
+    padding-top: 50px;
+}
+
+.card {
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 0.9rem;
+}
+
+.zoekbalk {
+    padding: 7px 15px;
+    border-radius: 15px;
+    border: 2px solid #8B0000;
+    font-size: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: all 0.3s ease;
+}
+
+.zoekbalk:focus {
+    outline: none;
+    border-color: #f4e04d;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
