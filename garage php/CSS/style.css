@@ -1,0 +1,212 @@
+body {
+    overflow-x: hidden;
+    background-color: rgb(240, 244, 248);
+}
+
+@font-face {
+    font-family: 'titelFont';
+    src: url('../CSS/MAGNETOB.TTF') format('truetype');
+}
+
+h1 {
+    font-family: 'titelFont', sans-serif;
+    color: rgb(253, 185, 18);
+    color: #FDB912;
+    text-shadow:
+        -2px -2px 0 #E8372D,
+        2px -2px 0 #E8372D,
+        -2px 2px 0 #E8372D,
+        2px 2px 0 #E8372D,
+        0px 0px 2px #E8372D;
+}
+
+#kleurNav {
+    background-color: rgb(169, 176, 184);
+}
+
+#titel {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: rgb(169, 176, 184);
+}
+
+#active {
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.navbar .nav-link {
+    color: rgb(58, 80, 107);
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: color 0.4s ease;
+}
+
+.navbar-nav .nav-item {
+    margin-left: 40px;
+}
+
+.nav-link:hover {
+    color: rgb(31, 50, 63);
+    text-decoration-line: underline;
+}
+
+#tabel {
+    max-width: 900px;
+    margin: 40px auto 0;
+    margin-bottom: 40px;
+}
+
+#knop {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    background-color: transparent;
+    font-weight: 700;
+    border-radius: 10px;
+    border: 2.5px solid black;
+    padding: 8px 20px;
+    transition: all 0.6s ease-out;
+    cursor: pointer;
+    font-size: medium;
+}
+
+#knop:hover {
+    background-color: black;
+    color: white;
+}
+
+#knopSend {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 200px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    font-weight: 600;
+    border-radius: 10px;
+    border: 2.5px solid black;
+    padding: 8px 20px;
+    transition: all 0.6s ease-out;
+    cursor: pointer;
+}
+
+#knopSend:hover {
+    background-color: black;
+    color: white;
+}
+
+input::placeholder {
+    color: gray;
+    text-align: center;
+    font-weight: 700;
+}
+
+#product {
+    height: 50px;
+    width: 250px;
+    text-align: center;
+    border: 2.5px solid black;
+    color: black;
+    border-radius: 10px;
+}
+
+#blok {
+    width: 500px;
+    border: 2.5px solid black;
+    padding: 20px;
+    border-radius: 25px;
+    background-color: rgba(203, 213, 225);
+
+}
+
+.factuur-icon {
+    font-size: 26px;
+    color: #28a745;
+    transition: color 0.4s ease;
+}
+
+.factuur-icon:hover {
+    color: #155724;
+}
+
+#blokje {
+    border: 2.5px solid black;
+    border-radius: 25px;
+    width: 360px;
+    background-color: rgba(203, 213, 225);
+    overflow: hidden;
+}
+
+#naam {
+    background-color: rgb(112, 153, 203);
+    padding: 10px 20px;
+    margin-bottom: 0;
+    margin-left: -12px;
+    border-top-left-radius: 22px;
+    border-top-right-radius: 22px;
+    width: 356px;
+    color: white;
+    font-weight: bold;
+}
+
+#onderkant {
+    background-color: rgb(112, 153, 203);
+    padding: 10px 20px;
+    margin-top: -10px;
+    margin-bottom: 0;
+    margin-left: -12px;
+    border-bottom-left-radius: 22px;
+    border-bottom-right-radius: 22px;
+    width: 356px;
+    color: white;
+    font-weight: bold;
+}
+
+#factuurTabel {
+    width: 900px;
+    table-layout: auto;
+    background-color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+#tableBlok {
+    margin-top: 20px;
+    border: 2.5px solid black;
+    border-radius: 25px;
+    background-color: rgba(203, 213, 225);
+    overflow: auto;
+    max-width: 100%;
+    width: fit-content;
+    overflow-x: hidden;
+    margin-bottom: 30px;
+}
+
+#namen {
+    background-color: rgb(112, 153, 203);
+    padding: 10px 20px;
+    margin-bottom: 0;
+    margin-left: -12px;
+    border-top-left-radius: 22px;
+    border-top-right-radius: 22px;
+    width: 993px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#onder {
+    background-color: rgb(112, 153, 203);
+    padding: 10px 20px;
+    margin-top: -10px;
+    margin-bottom: 0;
+    margin-left: -12px;
+    border-bottom-left-radius: 22px;
+    border-bottom-right-radius: 22px;
+    width: 993px;
+    color: white;
+    font-weight: bold;
+}
